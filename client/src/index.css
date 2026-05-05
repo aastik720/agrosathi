@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  font-family: "Noto Sans Devanagari", Inter, system-ui, sans-serif;
+  background: #f0fdf4;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+.field-label {
+  @apply text-sm font-semibold text-slate-700;
+}
+
+.field-input {
+  @apply mt-2 w-full rounded-lg border border-green-100 bg-white px-4 py-3 text-slate-900 outline-none transition focus:border-agro-green focus:ring-4 focus:ring-green-100;
+}
+
+.primary-button {
+  @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-lg bg-agro-green px-5 py-3 font-bold text-white transition hover:bg-green-700 disabled:cursor-not-allowed disabled:opacity-70;
+}
+
+.secondary-button {
+  @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-lg border border-green-200 bg-white px-5 py-3 font-bold text-agro-green transition hover:bg-green-50;
+}
+
+.page-shell {
+  @apply mx-auto w-full max-w-6xl px-4 py-8 sm:px-6 lg:px-8;
+}
+
+.spinner {
+  @apply h-5 w-5 animate-spin rounded-full border-2 border-white border-t-transparent;
+}
+
+.chips-in {
+  animation: chips-in 240ms ease-out both;
+}
+
+@keyframes chips-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

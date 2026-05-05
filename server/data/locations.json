@@ -1,0 +1,18 @@
+{
+  "Theog": { "lat": 31.1167, "lng": 77.35, "state": "Himachal Pradesh" },
+  "Shimla": { "lat": 31.1048, "lng": 77.1734, "state": "Himachal Pradesh" },
+  "Solan": { "lat": 30.9045, "lng": 77.0967, "state": "Himachal Pradesh" },
+  "Narkanda": { "lat": 31.2578, "lng": 77.4619, "state": "Himachal Pradesh" },
+  "Kufri": { "lat": 31.0982, "lng": 77.2679, "state": "Himachal Pradesh" },
+  "Rohru": { "lat": 31.2048, "lng": 77.7526, "state": "Himachal Pradesh" },
+  "Kotkhai": { "lat": 31.1175, "lng": 77.5417, "state": "Himachal Pradesh" },
+  "Mashobra": { "lat": 31.1308, "lng": 77.2282, "state": "Himachal Pradesh" },
+  "Kandaghat": { "lat": 30.9746, "lng": 77.1055, "state": "Himachal Pradesh" },
+  "Chandigarh": { "lat": 30.7333, "lng": 76.7794, "state": "Chandigarh" },
+  "Panchkula": { "lat": 30.6942, "lng": 76.8606, "state": "Haryana" },
+  "Mandi": { "lat": 31.7087, "lng": 76.932, "state": "Himachal Pradesh" },
+  "Kullu": { "lat": 31.9579, "lng": 77.1095, "state": "Himachal Pradesh" },
+  "Manali": { "lat": 32.2432, "lng": 77.1892, "state": "Himachal Pradesh" },
+  "Palampur": { "lat": 32.1109, "lng": 76.5363, "state": "Himachal Pradesh" },
+  "Dharamshala": { "lat": 32.219, "lng": 76.3234, "state": "Himachal Pradesh" }
+}
